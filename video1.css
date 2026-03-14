@@ -1,0 +1,98 @@
+a {
+    color: inherit;
+}
+.hero-section-parent {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: left;
+  	font-size: 12px;
+  	color: #506349;
+  	font-family: 'Work Sans';
+}
+.hero-section {
+  	align-self: stretch;
+  	height: 90px;
+  	border-radius: 0px 0px 16px 16px;
+  	background-color: #3b4bb1;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 20px 40px;
+  	box-sizing: border-box;
+}
+.content {
+  	width: 100%;
+  	display: flex;
+  	align-items: center;
+  	gap: 80px;
+  	max-width: 1500px;
+}
+.labels {
+  	border-radius: 8px;
+  	background-color: #e2e3e8;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px;
+  	cursor: pointer;
+}
+.taxes {
+  	position: relative;
+  	letter-spacing: -0.04em;
+  	line-height: 110%;
+  	font-weight: 500;
+}
+.text {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 40px;
+  	color: #fff;
+}
+.concept-video {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: -0.08em;
+  	line-height: 100%;
+}
+.team-section {
+  	align-self: stretch;
+  	height: 695px;
+  	background-color: #7a88ed;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 80px 0px;
+  	box-sizing: border-box;
+  	gap: 50px;
+}
+.video-1-1 {
+  	width: 800px;
+  	height: 450px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.labels2 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 30px;
+  	flex-shrink: 0;
+}
+.labels4 {
+  	border-radius: 8px;
+  	background-color: #e2e3e8;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px;
+}
+
